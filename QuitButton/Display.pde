@@ -1,8 +1,8 @@
 void displayOrientation() 
 {
   //Landscape, not portrait nor square
-  String landscape = "You are good to go bud!";
-  String portrait = "Turn your phone buddy!";
+  String landscape = "You are good to go buddy";
+  String portrait = "Buddy, turn the ohone!";
   String displayOrientation = ( displayWidth >= displayHeight ) ? landscape : portrait ;
   if ( displayOrientation==portrait ) println ( displayOrientation ); //Portrait Display Orientation
   if ( displayOrientation==landscape ) appWidth = displayWidth; //option diplayWidth
